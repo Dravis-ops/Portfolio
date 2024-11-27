@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.navbar {
+    position: relative;
+    font-size: 17px;
+    background: transparent;
+    font-family: lato;
+    width: fit-content;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    margin: none;
+    padding: none;
+}
+
+.navbar ul {
+    background: transparent;
+    list-style: none;
+    display: flex;
+    height: inherit;
+}
+.navbar ul li {
+    background-color: transparent;
+    height: inherit;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+    margin-left: 3px;
+    font-weight: 600;
+    margin-right: 3px;
+}
+.homelink {
+    font-weight: 700;
+}
+.aboutlink, .serviceslink {
+    font-weight: 600;
+}

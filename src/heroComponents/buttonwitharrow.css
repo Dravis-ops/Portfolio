@@ -1,0 +1,30 @@
+.ContactButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+  
+  .arrow {
+    margin-left: 10px;
+    width: 20px; 
+    height: 20px;
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+  
+  .ContactButton:hover .arrow {
+    transform: rotate(405deg) scale(1.2);
+    border-radius: 50%;
+  }
+  .ContactButton:hover  {
+    color: blue;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  

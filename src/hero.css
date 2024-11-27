@@ -1,0 +1,49 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato, arial;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 200px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .basicllyMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between components */
+    padding: 20px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .basicllyMe {
+      flex-direction: column; /* Stack components on smaller screens */
+      gap: 10px;
+      align-items: center;
+    }
+  }
+  

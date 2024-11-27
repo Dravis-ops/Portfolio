@@ -1,0 +1,33 @@
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 9999;
+  }
+  
+  /* Blur out the rest of the page */
+  body.loading-active {
+    filter: blur(5px);
+  }
+  
+  .loading {
+    text-align: center;
+    color: white;
+  }
+  
+  .loading img {
+    width: 100px; 
+    margin-bottom: 20px;
+  }
+  
+  .loading p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

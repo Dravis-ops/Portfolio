@@ -1,0 +1,23 @@
+.siteorigin {
+    position: relative;
+    left: 20px;
+    padding: 14px 10px;
+    color: #64ffff;
+    display: inline-block;
+    text-align: left;
+}
+.siteorigin h3 {
+    z-index: 2;
+    color: #64ffff;
+    text-align: center;
+    left: 30px;
+    position: relative;
+    border-bottom: 2px solid #64ffff;
+    padding-bottom: 10px;
+}
+i {
+    color: #64ffff;
+}
+li {
+    list-style: none;
+}

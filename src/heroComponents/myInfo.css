@@ -1,0 +1,10 @@
+.myInfoSctn {
+    position: relative;
+    left: 10px;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: start;
+}

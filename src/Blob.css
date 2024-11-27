@@ -1,0 +1,15 @@
+
+.blob {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    pointer-events: none;
+    filter: blur(15px);
+    transition: transform 0.1s ease-out;
+    z-index: 9999;
+    transform: scale(1.5); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  

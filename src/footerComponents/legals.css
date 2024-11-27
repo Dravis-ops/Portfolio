@@ -1,0 +1,24 @@
+.legals {
+    position: relative;
+    left: 20px;
+    padding: 14px 10px;
+    color: #64ffff;
+    display: inline-block;
+    text-align: left;
+}
+.legals h3 {
+    z-index: 2;
+    color: #64ffff;
+    text-align: left;
+    left: 40px;
+    position: relative;
+    border-bottom: 2px solid #64ffff;
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
+i {
+    color: #64ffff;
+}
+li {
+    list-style: none;
+}

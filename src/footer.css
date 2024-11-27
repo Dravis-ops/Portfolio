@@ -1,0 +1,51 @@
+
+.footer {
+    display: flex;  
+    flex-direction: row;    
+    flex-wrap: wrap;  
+    justify-content: space-between;
+    align-items: flex-start;   
+    padding: 20px;   
+    box-sizing: border-box;
+    background-image: url('./footerComponents/photo/3d-geometric-abstract-twist-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;     
+    width: 100%;   
+    right: 0;
+    left: 0;
+    bottom: 0;  
+}
+
+.footer .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px;
+    }
+}
+
+
+.footer > * {
+    flex: 1;                 
+    min-width: 250px;              
+    margin: 10px;                 
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;    
+        align-items: center;       
+    }
+
+    .footer > * {
+        flex: none;              
+        margin: 15px 0;           
+    }
+}
